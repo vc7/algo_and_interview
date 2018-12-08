@@ -1,0 +1,39 @@
+## 2018/12/07
+
+### 27. Remove Element `Easy`
+
+``` swift
+class Solution {
+    func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
+        guard nums.count > 0 else { return 0 }
+        
+        var latestPosition = 0
+        for index in 0..<nums.count {
+            if nums[index] != val {
+                nums[latestPosition] = nums[index]
+                latestPosition += 1
+            }
+        }
+        
+        return latestPosition 
+    }
+}
+```
+
+### 26. Remove Duplicates from Sorted Array `Easy`
+
+``` swift
+class Solution {
+    func removeDuplicates(_ nums: inout [Int]) -> Int {
+        guard nums.count > 0 else { return 0 }
+        var latestPosition = 0
+        for index in 0..<nums.count {
+            if nums[index] != nums[latestPosition] {
+                latestPosition += 1
+                nums[latestPosition] = nums[index]
+            }
+        }
+        return latestPosition + 1
+    }
+}
+```

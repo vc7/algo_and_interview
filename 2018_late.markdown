@@ -26,7 +26,7 @@ class Solution {
 
 接著想到不需要進位的時候應該是不需要做多餘的運算，所以應該可以改成這樣：
 
-```
+``` swift
 class Solution {
     func plusOne(_ digits: [Int]) -> [Int] {
         var result = digits

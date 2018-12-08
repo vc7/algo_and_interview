@@ -1,6 +1,109 @@
+## 2018/12/08
+
+### [66. Plus One](https://leetcode.com/problems/plus-one/submissions/) `Easy`
+
+``` swift
+class Solution {
+    func plusOne(_ digits: [Int]) -> [Int] {
+        var result = digits
+        var shouldCarry = true
+        
+        for (index, item) in result.enumerated().reversed() {
+            let addition = shouldCarry ? 1 : 0
+            let sum = item + addition
+            shouldCarry = (sum / 10) != 0
+            result[index] = sum % 10
+        }
+        
+        if shouldCarry {
+            result.insert(1, at: 0)
+        }
+        
+        return result
+    }
+}
+```
+
+接著想到不需要進位的時候應該是不需要做多餘的運算，所以應該可以改成這樣：
+
+```
+class Solution {
+    func plusOne(_ digits: [Int]) -> [Int] {
+        var result = digits
+        var shouldCarry = true
+        
+        for (index, item) in result.enumerated().reversed() {
+            if shouldCarry {
+                let sum = result[index] + 1
+                shouldCarry = (sum / 10) != 0
+                result[index] = sum % 10
+            } else {
+                shouldCarry = false
+            }
+        }
+        
+        if shouldCarry {
+            result.insert(1, at: 0)
+        }
+        
+        return result
+    }
+}
+```
+
+
+#### 碰到的速度上的問題
+
+在反向走訪的地方
+一開始沒有用 enumerated 的方式，會慢非常多 (執行時間 `28ms`)
+
+``` swift
+for index in (0..<result.count).reversed() {}
+```
+
+改成 enumerated 之後，執行速度就變快了 → (執行時間 `12ms`)
+
+``` swift
+for (index, item) in result.enumerated().reversed() {}
+```
+
+### [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) `Medium`
+
+``` swift
+class Solution {
+    func removeDuplicates(_ nums: inout [Int]) -> Int {
+        guard nums.count > 2 else { return nums.count }
+        
+        var latestPosition = 0
+        var appeared = 0
+        
+        for index in 1..<nums.count {
+            if nums[latestPosition] != nums[index] {
+                latestPosition += 1
+                nums[latestPosition] = nums[index]
+                appeared = 0
+            } else {
+                appeared += 1
+                if appeared < 2 {
+                    latestPosition += 1
+                    nums[latestPosition] = nums[index]
+                }
+            }
+        }
+        
+        
+        return latestPosition + 1
+    }
+}
+```
+
+#### 參考
+
+- https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/discuss/27993/Swift-solution-Two-Pointers
+
 ## 2018/12/07
 
-### 27. Remove Element `Easy`
+### [27. Remove Element](https://leetcode.com/problems/remove-element/) `Easy`
 
 ``` swift
 class Solution {
@@ -20,7 +123,7 @@ class Solution {
 }
 ```
 
-### 26. Remove Duplicates from Sorted Array `Easy`
+### [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) `Easy`
 
 ``` swift
 class Solution {

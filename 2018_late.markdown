@@ -1,3 +1,36 @@
+## 2018/12/09
+
+### [118. Pascal's Triangle]() `Easy`
+
+#### 原本的解法
+
+> Runtime: 12 ms, faster than 22.06% of Swift online submissions for Pascal's Triangle.
+
+很慢又要逐一初始化覺得很不合理！ 的解法
+
+``` swift
+class Solution {
+    func generate(_ numRows: Int) -> [[Int]] {
+        var result = [[Int]](repeating: [], count: numRows)
+        for row in (0 ..< numRows) {
+            let size = row + 1
+            result[row] = [Int](repeating: 0, count: size)
+            
+            result[row][0] = 1
+            result[row][row] = 1
+            
+            if row > 0 {
+                for item in (1..<row) {
+                    result[row][item] = result[row-1][item-1] + result[row-1][item]
+                }   
+            }
+        }
+        
+        return result
+    }
+}
+```
+
 ## 2018/12/08
 
 ### [66. Plus One](https://leetcode.com/problems/plus-one/submissions/) `Easy`

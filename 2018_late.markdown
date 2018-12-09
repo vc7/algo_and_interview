@@ -1,6 +1,6 @@
 ## 2018/12/09
 
-### [118. Pascal's Triangle]() `Easy`
+### [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/submissions/) `Easy`
 
 #### 原本的解法
 

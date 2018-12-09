@@ -31,6 +31,38 @@ class Solution {
 }
 ```
 
+### 討論區的寫法
+
+> Runtime: 8 ms, faster than 100.00% of Swift online submissions for Pascal's Triangle.
+
+- 參考解法： [Swift beats 100%](https://leetcode.com/problems/pascals-triangle/discuss/197394/Swift-beats-100)
+- 利用 Swift 的特性，以 append 為主，而非先決定陣列的尺寸再塞資料
+
+``` swift
+class Solution {
+    func generate(_ numRows: Int) -> [[Int]] {
+        var result = [[Int]]()
+        var latestRow = [1]
+        for row in (0 ..< numRows) {
+            var currentRow = [1]
+            for item in (0..<latestRow.count-1) {
+                currentRow.append(latestRow[item] + latestRow[item+1])
+            }
+            currentRow.append(1)
+            
+            result.append(latestRow)
+            latestRow = currentRow
+        }
+        
+        return result
+    }
+}
+```
+
+其他解法
+
+- [Swift solution - 100% 8ms - with comments](https://leetcode.com/problems/pascals-triangle/discuss/160630/Swift-solution-100-8ms-with-comments)
+
 ## 2018/12/08
 
 ### [66. Plus One](https://leetcode.com/problems/plus-one/submissions/) `Easy`

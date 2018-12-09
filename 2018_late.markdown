@@ -1,3 +1,8 @@
+| Total | Easy | Medium | Hard |
+|:---:|:---:|:---:|:---:|
+| 6 | 5 | 1 | 0 |
+
+
 ## 2018/12/09
 
 ### [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) `Easy`

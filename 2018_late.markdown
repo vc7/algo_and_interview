@@ -4,7 +4,7 @@
 
 > Runtime: 8 ms, faster than 100.00% of Swift online submissions for Pascal's Triangle II.
 
-```
+``` swift
 class Solution {
     func getRow(_ rowIndex: Int) -> [Int] {
         if rowIndex == 0 {

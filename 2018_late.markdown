@@ -1,6 +1,34 @@
 | Total | Easy | Medium | Hard |
 |:---:|:---:|:---:|:---:|
-| **7** | 6 | 1 | 0 |
+| **8** | 7 | 1 | 0 |
+
+## 2018/12/11
+
+### [1. Two Sum]() `Easy` 
+
+tag: `Hash`
+
+> Runtime: 40 ms, faster than 99.84% of Swift online submissions for Two Sum.
+
+
+``` swift
+class Solution {
+    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        if nums.count < 2 { return [] }
+        var dictionary = [Int:Int]()
+        
+        for (index, num) in nums.enumerated() {
+            let expected: Int = target - num
+            if let found = dictionary[expected] {
+                return [found, index]
+            }
+            dictionary[num] = index
+        }
+        return []
+    }
+}
+```
+
 
 
 ## 2018/12/10

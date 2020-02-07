@@ -102,3 +102,42 @@ class Solution {
 Runtime: 40 ms, faster than 76.86% of Swift online submissions for Longest Substring Without Repeating Characters.
 Memory Usage: 21.3 MB, less than 12.50% of Swift online submissions for Longest Substring Without Repeating Characters.
 ```
+
+### 4
+
+不使用 enumerated 不知道為什麼速度加快很多。
+
+``` swift
+class Solution {
+    func lengthOfLongestSubstring(_ string: String) -> Int {
+        if string.count < 2 { return string.count }
+
+        /// Sliding Window 窗戶的起始點
+        var start = 0
+        var result = 0
+        var original = Array(string)
+        var characters = [Character: Int]()
+        
+        for index in 0..<original.count {
+            let current = original[index]
+            if let previousIndex = characters[current] {
+                start = max(previousIndex, start)
+            }
+            
+            result = max(result, index - start + 1)
+            
+            // 讓下一次計算距離從出現位置的右側 1 位開始計算
+            characters[current] = index + 1
+        }
+        
+        return result
+    }
+}
+```
+
+#### Result
+
+```
+Runtime: 32 ms, faster than 92.16% of Swift online submissions for Longest Substring Without Repeating Characters.
+Memory Usage: 21.3 MB, less than 12.50% of Swift online submissions for Longest Substring Without Repeating Characters.
+```

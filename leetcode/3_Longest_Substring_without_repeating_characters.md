@@ -33,6 +33,8 @@ Memory Usage: 21.4 MB, less than 12.50% of Swift online submissions for Longest 
 
 ### 2
 
+加入 HashMap 的做法
+
 ``` swift
 class Solution {
     func lengthOfLongestSubstring(_ string: String) -> Int {

@@ -5,9 +5,9 @@ https://leetcode.com/problems/two-sum
 
 ## 20200207
 
-### 
+### 1
 
-Runtime 2304ms, Memory 20.9 MB
+這個解法太複雜了（笑
 
 ``` swift
 class Solution {
@@ -38,7 +38,9 @@ class Solution {
 }
 ```
 
-Result
+### Result
+
+Runtime 2304ms, Memory 20.9 MB
 
 ```
 Runtime: 2304 ms, faster than 5.09% of Swift online submissions for Two Sum.
@@ -64,9 +66,43 @@ class Solution {
 }
 ```
 
-Result
+### Result
+
+Runtime 32 ms, Memory 21.2 MB
 
 ``` 
 Runtime: 32 ms, faster than 95.39% of Swift online submissions for Two Sum.
 Memory Usage: 21.2 MB, less than 5.88% of Swift online submissions for Two Sum.
+```
+
+### 3
+
+試著不要用 enumerate 但是差異沒有很大
+
+``` swift
+class Solution {
+    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        if nums.count < 2 { return [] }
+        var dictionary = [Int:Int]()
+        
+        for index in 0..<nums.count {
+            let current = nums[index]
+            if let found = dictionary[target-current] {
+                return [found, index]
+            }
+            dictionary[current] = index
+        }
+        
+        return []
+    }
+}
+```
+
+### Result
+
+Runtime 32 ms, Memory 21 MB
+
+```
+Runtime: 32 ms, faster than 95.39% of Swift online submissions for Two Sum.
+Memory Usage: 21 MB, less than 5.88% of Swift online submissions for Two Sum.
 ```

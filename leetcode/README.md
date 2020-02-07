@@ -6,6 +6,8 @@
 
 - 只要看到 `sorted in ascending order` 這樣的字眼就是可以用 binary search 的信號
 - 如果在面試如果面試官沒有提，就可以問「這是有依序排列的嗎」
+- 只要有出現 O(logn)
+- 雖然有變形題目，在面試的時候還是就可以先把基礎的 binary search 寫出來再修改
 
 ## Sliding Window 相關資料
 

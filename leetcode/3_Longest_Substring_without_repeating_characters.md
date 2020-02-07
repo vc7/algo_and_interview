@@ -70,3 +70,35 @@ class Solution {
 Runtime: 40 ms, faster than 76.86% of Swift online submissions for Longest Substring Without Repeating Characters.
 Memory Usage: 21.2 MB, less than 12.50% of Swift online submissions for Longest Substring Without Repeating Characters.
 ```
+
+### 3
+
+執行時間沒有減少太多，但是比較好懂
+
+``` swift
+class Solution {
+    func lengthOfLongestSubstring(_ string: String) -> Int {
+        if string.count < 2 { return string.count }
+        var start = 0
+        var result = 0
+        var characters = [Character: Int]()
+        
+        for (index, character) in string.enumerated() {
+            if let previousIndex = characters[character], previousIndex >= start {
+                start = previousIndex + 1
+            }
+            characters[character] = index
+            result = max(result, index - start + 1)
+        }
+        
+        return result
+    }
+}
+```
+
+#### Result
+
+```
+Runtime: 40 ms, faster than 76.86% of Swift online submissions for Longest Substring Without Repeating Characters.
+Memory Usage: 21.3 MB, less than 12.50% of Swift online submissions for Longest Substring Without Repeating Characters.
+```

@@ -38,7 +38,7 @@ class Solution {
 }
 ```
 
-### Result
+#### Result
 
 Runtime 2304ms, Memory 20.9 MB
 
@@ -47,7 +47,7 @@ Runtime: 2304 ms, faster than 5.09% of Swift online submissions for Two Sum.
 Memory Usage: 20.9 MB, less than 5.88% of Swift online submissions for Two Sum.
 ```
 
-## 2
+### 2
 
 ``` swift
 class Solution {
@@ -66,7 +66,7 @@ class Solution {
 }
 ```
 
-### Result
+#### Result
 
 Runtime 32 ms, Memory 21.2 MB
 
@@ -98,7 +98,7 @@ class Solution {
 }
 ```
 
-### Result
+#### Result
 
 Runtime 32 ms, Memory 21 MB
 
@@ -130,7 +130,7 @@ class Solution {
 }
 ```
 
-### Result
+#### Result
 
 Runtime 28 ms, Memory 21.1 MB
 

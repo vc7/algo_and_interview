@@ -1,0 +1,44 @@
+# Two Sum
+
+https://leetcode.com/problems/two-sum
+
+
+## 20200207
+
+### 1
+
+``` swift
+class Solution {
+    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        guard nums.count > 1 else { return [] }
+        
+        var baseIndex = 0
+        var movingIndex = baseIndex + 1
+        
+        while baseIndex < nums.count - 1 && movingIndex < nums.count {
+            let spare = target - nums[baseIndex]
+            let current = nums[movingIndex]
+            
+            if spare > current || spare < current {
+                if movingIndex == nums.count - 1 {
+                    baseIndex += 1
+                    movingIndex = baseIndex + 1
+                } else {
+                    movingIndex += 1
+                }
+            } else {
+                return [baseIndex, movingIndex]
+            }
+        }
+        
+        return []
+    }
+}
+```
+
+Result
+
+```
+Runtime: 2304 ms, faster than 5.09% of Swift online submissions for Two Sum.
+Memory Usage: 20.9 MB, less than 5.88% of Swift online submissions for Two Sum.
+```

@@ -138,6 +138,6 @@ class Solution {
 #### Result
 
 ```
-Runtime: 32 ms, faster than 92.16% of Swift online submissions for Longest Substring Without Repeating Characters.
-Memory Usage: 21.3 MB, less than 12.50% of Swift online submissions for Longest Substring Without Repeating Characters.
+Runtime: 28 ms, faster than 95.07% of Swift online submissions for Longest Substring Without Repeating Characters.
+Memory Usage: 21.1 MB, less than 12.50% of Swift online submissions for Longest Substring Without Repeating Characters.
 ```

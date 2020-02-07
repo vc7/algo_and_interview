@@ -106,3 +106,35 @@ Runtime 32 ms, Memory 21 MB
 Runtime: 32 ms, faster than 95.39% of Swift online submissions for Two Sum.
 Memory Usage: 21 MB, less than 5.88% of Swift online submissions for Two Sum.
 ```
+
+### 4
+
+有試過 guard 但是 guard 消耗的時間比較多，調整了變數命名
+
+``` swift
+class Solution {
+    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        if nums.count < 2 { return [] }
+        var candidates = [Int:Int]()
+        
+        for index in 0..<nums.count {
+            let current = nums[index]
+            if let found = candidates[target-current] {
+                return [found, index]
+            }
+            candidates[current] = index
+        }
+        
+        return []
+    }
+}
+```
+
+### Result
+
+Runtime 28 ms, Memory 21.1 MB
+
+```
+Runtime: 28 ms, faster than 99.70% of Swift online submissions for Two Sum.
+Memory Usage: 21.1 MB, less than 5.88% of Swift online submissions for Two Sum.
+```

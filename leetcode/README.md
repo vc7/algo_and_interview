@@ -1,5 +1,12 @@
 # Leetcode 區
 
+## Binary Search 相關資料
+
+### [Algorithm Patterns - Binary Search](https://www.youtube.com/watch?v=8T77iUOuXRA)
+
+- 只要看到 `sorted in ascending order` 這樣的字眼就是可以用 binary search 的信號
+- 如果在面試如果面試官沒有提，就可以問「這是有依序排列的嗎」
+
 ## Sliding Window 相關資料
 
 ### [Sliding Window Approach | Longest Continuous Increasing Subsequence | LeetCode 674.](https://www.youtube.com/watch?v=jSvoE-_Yhs4)

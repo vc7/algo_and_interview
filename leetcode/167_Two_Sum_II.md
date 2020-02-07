@@ -39,7 +39,8 @@ Memory Usage: 21.3 MB, less than 25.00% of Swift online submissions for Two Sum 
 
 ### 2
 
-為了接近 O(n) 的時間複雜度，用頭尾的向中間的 flags
+為了接近 O(n) 的時間複雜度，用頭尾的向中間的 flags ，
+這樣子也不需要再建立一個 dictionary 來存取和比較。
 
 ``` swift
 class Solution {

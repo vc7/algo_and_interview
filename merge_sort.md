@@ -1,10 +1,18 @@
 # Merge Sort
 
-概念：先把每個元素逐步分開到一個陣列一個元素，接著再逐一地排序並合併回去。
+概念：先把每個元素逐步分開到一個陣列一個元素，接著再逐一地排序並合併回去。是一個 devide and conquer 的演算法。
 
 每兩組陣列在合併的時候，因為需要標示目前處理的位置，所以必須給左堆和右堆都個宣告一個 flag 給他。
 
 而對 Swift 來說，在 slice 的時候都需要再重新建立一次 Array ，直覺上非常的消耗空間。
+
+## 時間複雜度
+
+O(nlogn)
+
+### 證明
+
+WIP
 
 ## 主 method
 
@@ -71,3 +79,9 @@ func merge<T>(leftPile: [T], rightPile: [T]) -> [T] where T: Comparable {
 let array = [9, 1, 3, 5, 3]
 let result = mergeSort(array)
 ```
+
+## 參考
+
+- https://github.com/raywenderlich/swift-algorithm-club/tree/master/Merge%20Sort
+- https://softwareengineering.stackexchange.com/a/297232/356908
+- https://softwareengineering.stackexchange.com/a/297203/356908

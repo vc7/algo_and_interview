@@ -4,6 +4,8 @@
 
 ### 1
 
+判斷 4,9,5 的時候太多 if else ，可以參考 [這篇](https://leetcode.com/problems/integer-to-roman/discuss/245429/36ms-Swift-Solution) 看看可以怎麼改善
+
 ``` swift
 class Solution {
     func intToRoman(_ num: Int) -> String {

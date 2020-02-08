@@ -4,7 +4,8 @@
 
 ### 1
 
-Time Limit Exceeded
+- Time Limit Exceeded
+- 暴力解法
 
 ``` swift
 class Solution {
@@ -43,6 +44,8 @@ class Solution {
         
         while lowerPointer < upperPointer {
             maximum = max(maximum, min(height[lowerPointer], height[upperPointer]) * (upperPointer - lowerPointer))
+            
+            // 因為要確保比較大的容量，所以要移動比較短的那一側的 pointer
             if height[lowerPointer] < height[upperPointer] {
                 lowerPointer += 1
             } else {

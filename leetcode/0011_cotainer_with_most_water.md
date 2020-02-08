@@ -28,5 +28,6 @@ class Solution {
 #### Result
 
 超時 ...
+複雜度是 O(n^2)
 
 ### 2

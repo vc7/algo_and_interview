@@ -31,3 +31,35 @@ class Solution {
 複雜度是 O(n^2)
 
 ### 2
+
+~雙主菜~ 雙 Pointer 從最左邊和最右邊逐一往中間收
+
+```
+class Solution {
+    func maxArea(_ height: [Int]) -> Int {
+        var maximum = 0
+        var lowerPointer = 0
+        var upperPointer = height.count - 1
+        
+        while lowerPointer < upperPointer {
+            maximum = max(maximum, min(height[lowerPointer], height[upperPointer]) * (upperPointer - lowerPointer))
+            if height[lowerPointer] < height[upperPointer] {
+                lowerPointer += 1
+            } else {
+                upperPointer -= 1
+            }
+        }
+        
+        return maximum
+    }
+}
+```
+
+#### Result
+
+時間複雜度是 O(n)
+
+```
+Runtime: 104 ms, faster than 89.55% of Swift online submissions for Container With Most Water.
+Memory Usage: 21.2 MB, less than 20.00% of Swift online submissions for Container With Most Water.
+```

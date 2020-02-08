@@ -66,3 +66,59 @@ class Solution {
 Runtime: 8 ms, faster than 99.24% of Swift online submissions for String to Integer (atoi).
 Memory Usage: 21.2 MB, less than 25.00% of Swift online submissions for String to Integer (atoi).
 ```
+
+### 2
+
+雖然改成 switch-case 和重構了一下，但是執行速度上似乎不是很理想
+
+```
+class Solution {
+    func myAtoi(_ str: String) -> Int {
+        var isNegative = false
+        var isStarted = false
+        var result = 0
+        
+        main: for character in str.map(String.init) {
+            let current = String(character)
+            switch current {
+            case "0"..."9":
+                isStarted = true
+                let number = Int(current)!
+                result = result * 10 + number
+                if !isNegative && result > Int32.max {
+                    return Int(Int32.max)
+                } else if isNegative && -result < Int32.min {
+                    return Int(Int32.min)
+                }
+            case "-":
+                if isStarted { break main }
+                isNegative = true
+                isStarted = true
+            case "+":
+                if isStarted { break main }
+                isNegative = false
+                isStarted = true
+            case " ":
+                if isStarted {
+                    break main
+                }
+            default:
+                break main
+            }
+        }
+        
+        if isNegative {
+            return -result
+        } else {
+            return result
+        }
+    }
+}
+```
+
+#### Result:
+
+```
+Runtime: 16 ms, faster than 76.34% of Swift online submissions for String to Integer (atoi).
+Memory Usage: 21.1 MB, less than 25.00% of Swift online submissions for String to Integer (atoi).
+```

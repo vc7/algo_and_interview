@@ -26,3 +26,4 @@
 ## Devide and Conquer
 
 - 如果有需要重複做很多次的事情，可以考慮用這個方式讓重複的方式減少到一半，例如 [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
+  - 時間複雜度也可以從 O(n) 降到 O(logn) → 對超大重複次數會非常有效果！

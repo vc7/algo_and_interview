@@ -65,3 +65,27 @@ func binarySearch<T>(array: [T], target: T) -> Int? where T: Comparable {
     return nil
 }
 ```
+
+#### 20200213 練習
+
+``` swift
+func binarysearch(_ array: [Int], target: Int) -> Int {
+    if array.isEmpty { return -1 }
+    var start = 0
+    var end = array.count - 1
+    while start < end {
+        let midIndex = (end - start) / 2
+        let midValue = array[midIndex]
+        
+        if midValue == target {
+            return midIndex
+        } else if midValue > target {
+            end = midIndex - 1
+        } else {
+            start = midIndex + 1
+        }
+    }
+    
+    return -1
+}
+```

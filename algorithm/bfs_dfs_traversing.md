@@ -10,6 +10,13 @@ Searching relationships, not just graphs. For example string distance, tree, ets
 | **資料結構的資料存取方式**| LIFO | FIFO |
 | **方向**| Go **WIDE** | Go **DEEP** |
 
+### 複雜度
+
+O(v+e)
+
+- **v** - 節點數
+- **e** - 邊數
+
 ### 註記
 
 - 搜尋對象是樹或是 graph ，詳細比較時的實作會不太一樣

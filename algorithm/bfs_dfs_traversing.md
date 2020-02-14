@@ -8,7 +8,7 @@ Searching relationships, not just graphs. For example string distance, tree, ets
 | **簡稱**| BFS | DFS |
 | **暫存的資料結構**| Queue | Stack |
 | **資料結構的資料存取方式**| LIFO | FIFO |
-| **方向**| Go **WIDE** | Go **DEEP* |
+| **方向**| Go **WIDE** | Go **DEEP** |
 
 ## 實作
 

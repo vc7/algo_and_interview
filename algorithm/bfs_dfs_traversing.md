@@ -10,6 +10,11 @@ Searching relationships, not just graphs. For example string distance, tree, ets
 | **資料結構的資料存取方式**| LIFO | FIFO |
 | **方向**| Go **WIDE** | Go **DEEP** |
 
+### 註記
+
+- 搜尋對象是樹或是 graph ，詳細比較時的實作會不太一樣
+- 搜尋的節點 (node) 或是點 (vertex) ，要有個絕對識別 (primary key, id etc.) 會比較好比較
+
 ## 實作
 
 ### BFS

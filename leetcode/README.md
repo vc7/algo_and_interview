@@ -31,3 +31,12 @@
 ## Bit Shifting
 
 - 當被要求做加減乘除不能用內建的 `+` `-` `*` `/` 就意味要用 bit shifting 解
+
+## Fast Editing/Removal etc.
+
+- Doubly Linked List
+  - 搭配 hash table 的話，可以幫助 Doubly Linked List 快速定位並編輯或刪除節點
+
+## Fast Lookup
+
+- Hash Map / Hash Table

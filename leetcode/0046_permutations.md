@@ -43,3 +43,10 @@ class Solution {
     }
 }
 ```
+
+#### Result
+
+```
+Runtime: 24 ms, faster than 70.45% of Swift online submissions for Permutations.
+Memory Usage: 20.7 MB, less than 16.67% of Swift online submissions for Permutations.
+```

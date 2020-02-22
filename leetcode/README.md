@@ -1,5 +1,11 @@
 # Leetcode 區
 
+## 題型註記
+
+| 演算法 | 題號 |
+|---|---|
+| Backtracking | 39, 40, 43, 46, 47
+
 ## Binary Search 相關資料
 
 ### [Algorithm Patterns - Binary Search](https://www.youtube.com/watch?v=8T77iUOuXRA)

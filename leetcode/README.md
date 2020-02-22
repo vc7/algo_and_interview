@@ -6,6 +6,10 @@
 |---|---|
 | Backtracking | 39, 40, 43, 46, 47
 
+| 資料結構 | 題號 |
+|---|---|
+| 二維陣列 | 54 |
+
 ## Binary Search 相關資料
 
 ### [Algorithm Patterns - Binary Search](https://www.youtube.com/watch?v=8T77iUOuXRA)

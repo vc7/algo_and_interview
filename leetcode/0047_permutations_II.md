@@ -1,4 +1,4 @@
-# 47. Permutation II
+# 47. Permutations II
 
 ## 20200222
 
@@ -38,4 +38,11 @@ class Solution {
         }
     }
 }
+```
+
+#### Result
+
+```
+Runtime: 64 ms, faster than 40.86% of Swift online submissions for Permutations II.
+Memory Usage: 21.6 MB, less than 14.29% of Swift online submissions for Permutations II.
 ```

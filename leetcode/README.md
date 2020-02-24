@@ -4,7 +4,7 @@
 
 | 演算法 | 題號 |
 |---|---|
-| Backtracking | 39, 40, 43, 46, 47 |
+| Backtracking | 39, 40, 43, 46, 47 <br> [climbingStaircase](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/climbingStaircase.md)|
 | Sliding Window | [findLongestSubarrayBySum](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/findLongestSubarrayBySum.md)
 
 | 資料結構 | 題號 |

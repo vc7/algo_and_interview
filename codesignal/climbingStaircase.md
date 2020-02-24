@@ -1,5 +1,7 @@
 # climbingStaircase
 
+- https://app.codesignal.com/interview-practice/task/cAXEnPyzknC5zgd7x/description
+
 ## 20200224
 
 ### 1

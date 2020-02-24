@@ -11,7 +11,7 @@
 |---|---|
 | 二維陣列 | 54 |
 | Hashmap | [containsDuplicates](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/containsDuplicates.md)
-| 字串話 Hashmap | [nQueens](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/nQueens.md)
+| 字串化 Hashmap | [nQueens](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/nQueens.md)
 
 ## Binary Search 相關資料
 

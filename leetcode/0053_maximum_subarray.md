@@ -1,5 +1,7 @@
 # 53. Maximum Subarray
 
+- https://www.youtube.com/watch?v=tinz1fiYv0c
+
 ## 20200210
 
 ### 1.

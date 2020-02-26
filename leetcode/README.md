@@ -10,9 +10,9 @@
 
 | 資料結構 | 題號 |
 |---|---|
-| 二維陣列(Matrix) | 54<br>[rotateImage](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/rotateImage.md) |
+| 二維陣列(Matrix) | 54<br>[rotateImage](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/rotateImage.md), [sudoku2](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/sudoku2.md) |
 | Hashmap | [containsDuplicates](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/containsDuplicates.md), [firstDuplicate](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/firstDuplicate.md), [firstNotRepeatingCharacter](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/firstNotRepeatingCharacter.md)
-| 字串化 Hashmap | [nQueens](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/nQueens.md)
+| 字串化 Hashmap | [nQueens](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/nQueens.md), [sudoku2](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/sudoku2.md)
 
 ## Binary Search 相關資料
 

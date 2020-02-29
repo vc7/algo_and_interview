@@ -12,7 +12,7 @@
 | 資料結構 | 題號 |
 |---|---|
 | Array | [56](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0056_merge_intervals.md)(+Sort)
-| 二維陣列(Matrix) | 54, [59](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0059_spiral_matrix_II.md)<br>[rotateImage](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/rotateImage.md), [sudoku2](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/sudoku2.md) |
+| 二維陣列(Matrix) | [54](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0054_spiral_matrix.md), [59](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0059_spiral_matrix_II.md)<br>[rotateImage](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/rotateImage.md), [sudoku2](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/sudoku2.md) |
 | Hashmap | [383](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0383_ransom_note.md)<br>[containsDuplicates](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/containsDuplicates.md), [firstDuplicate](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/firstDuplicate.md), [firstNotRepeatingCharacter](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/firstNotRepeatingCharacter.md)
 | 字串化 Hashmap | [nQueens](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/nQueens.md), [sudoku2](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/sudoku2.md)
 

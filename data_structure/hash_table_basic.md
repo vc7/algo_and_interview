@@ -103,5 +103,4 @@ class HashTable<Key: Hashable, Value> {
   - By Laakmann McDowell, 很簡單明瞭的解釋 hash table 的原理
 - [Hash Tables and Hash Functions](https://www.youtube.com/watch?v=KyUTuwz_b7Q)
   - 從最根本講解 hash table 和可能 hash function 的做法
-        var key: Key?和布
-        var key: Key?
+- [Hash Table：Chaining](http://alrightchiu.github.io/SecondRound/hash-tablechaining.html)

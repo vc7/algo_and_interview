@@ -1,5 +1,11 @@
 # 383. Ransom Note
 
+- https://leetcode.com/problems/ransom-note/
+
+#### 註
+
+雖然可以用雙 hash map 來解，不過可以試試看是不是能夠用單 hash map 就可以解
+
 ## 20200229
 
 ### 1

@@ -4,7 +4,7 @@
 
 | 演算法 | 題號 |
 |---|---|
-| Backtracking | 39, 40, 43, 46, 47 <br> [climbingStaircase](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/climbingStaircase.md), [nQueens](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/nQueens.md) |
+| Backtracking | 39, 40, 43, 46, 47 <br> [climbingStaircase](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/climbingStaircase.md), [nQueens](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/nQueens.md), [hasPathWithGivenSum](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/hasPathWithGivenSum.md) |
 | Sliding Window | [findLongestSubarrayBySum](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/findLongestSubarrayBySum.md)
 | Dynamic Programming | [53](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0053_maximum_subarray.md)<br>[houseRobber](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/houseRobber.md)(解法類似於 53)
 | Two Pointers (Slow-Fast) | [19](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/b7ac153c5d5e5ab894d86b7d9c66a87917de7dae/leetcode/0019_remove_nth_node_from_end_of_list.md), [61](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0061_rotate_list.md)<br>[removeKFromList](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/removeKFromList.md), [isListPalindrome](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/isListPalindrome.md)
@@ -16,6 +16,8 @@
 | Singly-linked List | [removeKFromList](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/removeKFromList.md), [isListPalindrome](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/isListPalindrome.md)(反轉), [addTwoHugeNumbers](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/addTwoHugeNumbers.md)(反轉), [mergeTwoLinkedLists](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/mergeTwoLinkedLists.md)
 | Hashmap | [383](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0383_ransom_note.md)<br>[containsDuplicates](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/containsDuplicates.md), [firstDuplicate](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/firstDuplicate.md), [firstNotRepeatingCharacter](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/firstNotRepeatingCharacter.md)
 | 字串化 Hashmap | [nQueens](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/nQueens.md), [sudoku2](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/sudoku2.md)
+| Tree | [hasPathWithGivenSum](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/hasPathWithGivenSum.md)
+
 
 ## Binary Search 相關資料
 

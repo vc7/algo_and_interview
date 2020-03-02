@@ -1,7 +1,5 @@
 # Leetcode 區
 
-- <https://app.codesignal.com/interview-practice/task/TG4tEMPnAc3PnzRCs/description>
-
 ## 題型註記
 
 | 演算法 | 題號 |

@@ -2,14 +2,14 @@
 
 ## 題型註記
 
-| 演算法 | 題號 |
+| 演算法 | 題號或題名 |
 |---|---|
 | Backtracking | 39, 40, 43, 46, 47 <br> [climbingStaircase](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/climbingStaircase.md), [nQueens](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/nQueens.md), [hasPathWithGivenSum](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/hasPathWithGivenSum.md), [isTreeSymmetric](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/isTreeSymmetric.md), [possibleSums](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/possibleSums.md) |
 | Sliding Window | [findLongestSubarrayBySum](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/findLongestSubarrayBySum.md)
 | Dynamic Programming | [53](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0053_maximum_subarray.md)<br>[houseRobber](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/houseRobber.md)(解法類似於 53)
 | Two Pointers (Slow-Fast) | [19](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/b7ac153c5d5e5ab894d86b7d9c66a87917de7dae/leetcode/0019_remove_nth_node_from_end_of_list.md), [61](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0061_rotate_list.md)<br>[removeKFromList](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/removeKFromList.md), [isListPalindrome](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/isListPalindrome.md)
 
-| 資料結構 | 題號 |
+| 資料結構 | 題號或題名 |
 |---|---|
 | Array | [56](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0056_merge_intervals.md)(+Sort)<br>[isCryptSolution](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/isCryptSolution.md)
 | 二維陣列(Matrix) | [54](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0054_spiral_matrix.md), [59](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0059_spiral_matrix_II.md)<br>[rotateImage](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/rotateImage.md), [sudoku2](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/sudoku2.md) |

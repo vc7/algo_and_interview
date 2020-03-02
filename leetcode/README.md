@@ -19,6 +19,7 @@
 | Hashmap | [383](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0383_ransom_note.md)<br>[containsDuplicates](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/containsDuplicates.md), [firstDuplicate](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/firstDuplicate.md), [firstNotRepeatingCharacter](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/firstNotRepeatingCharacter.md)
 | 字串化 Hashmap | [nQueens](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/nQueens.md), [sudoku2](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/sudoku2.md)
 | Tree | [hasPathWithGivenSum](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/hasPathWithGivenSum.md), [isTreeSymmetric](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/isTreeSymmetric.md)
+| String | [minimumOnStack](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/minimumOnStack.md)
 
 
 ## Binary Search 相關資料

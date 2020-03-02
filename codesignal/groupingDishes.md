@@ -6,6 +6,8 @@
 
 ### 1
 
+感覺有可以優化的空間
+
 ``` swift
 func groupingDishes(dishes: [[String]]) -> [[String]] {
     if dishes.isEmpty { return [] }

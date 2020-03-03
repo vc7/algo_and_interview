@@ -1,5 +1,8 @@
 # Min Heap - 陣列
 
+- 逐步解說 - <https://www.youtube.com/watch?v=g9YK6sftDi0>
+- Heaps(HackerRank) - <https://www.youtube.com/watch?v=t0Cq6tVNRBA>
+
 ``` swift
 /// Defined based on **The abstract data type Priority Queue**
 /// - <http://users.encs.concordia.ca/~chvatal/notes/pq.html>

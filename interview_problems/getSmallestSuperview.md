@@ -11,7 +11,6 @@ func getSmallestParentView(view1: UIView, view2: UIView) -> UIView? {
     
     var smallestParentView: UIView?
     
-    
     while smallestParentView == nil && (parentViewOf1 != nil || parentViewOf2 != nil) {
         if let view = parentViewOf1 {
             seenViews1.append(view)

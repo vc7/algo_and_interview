@@ -1,6 +1,6 @@
 # 63. Unique Paths II
 
-DP, [62]() 的變形題
+DP, [62](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0062_unique_paths.md) 的變形題
 
 ## 20200311
 

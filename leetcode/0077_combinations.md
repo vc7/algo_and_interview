@@ -36,3 +36,10 @@ class Solution {
     }
 }
 ```
+
+#### Result
+
+``` text
+Runtime: 196 ms, faster than 83.12% of Swift online submissions for Combinations.
+Memory Usage: 22.4 MB, less than 100.00% of Swift online submissions for Combinations.
+```

@@ -25,6 +25,7 @@
 
 | 題型 | 題號或題名 |
 |---|---|
+| Rotated Array | [83](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0083.md)
 | 排列組合 | [77](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0077_combinations.md)<br>[possibleSums](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/possibleSums.md)
 | Path | [62](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0062_unique_paths.md), [63](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0063_unique_paths_II.md), [64](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0064_minumum_path_sum.md)
 

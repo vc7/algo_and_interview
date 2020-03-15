@@ -73,5 +73,6 @@
 
 ## Backtracking or Dynamic Programming
 
-- 如果需要 **計算** 所有項目出來的話就是要用 Dynamic Programming
+- 如果需要 **計算** 所有項目出來的話就是要用 Dynamic Programming (+ memoization)
+  - 好的情況時可以把指數型的時間複雜度降到線性的時間複雜度
 - 如果需要 **列舉** 所有項目出來的話就是要用 Backtracking

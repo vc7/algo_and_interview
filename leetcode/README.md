@@ -70,3 +70,8 @@
 ## Fast Lookup
 
 - Hash Map / Hash Table
+
+## Backtracking or Dynamic Programming
+
+- 如果需要 **計算** 所有項目出來的話就是要用 Dynamic Programming
+- 如果需要 **列舉** 所有項目出來的話就是要用 Backtracking

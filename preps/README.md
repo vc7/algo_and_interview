@@ -14,6 +14,7 @@
 
 - [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/)
   - 這應該是必讀了
+  - Study Guide
 
 ## 參考影片
 

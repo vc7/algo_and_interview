@@ -20,3 +20,7 @@
 - [How to pass big n software engineering interviews...](https://www.youtube.com/watch?v=oLUG95Ai_rw) by Kevin Naughton Jr.
   - 有提到準備方式、書目和使用平台
 - [How to Use LeetCode Effectively...](https://www.youtube.com/watch?v=iGFnsuMeUQY) by Kevin Naughton Jr.
+
+## 其他資源
+
+- [kdn251/interviews](https://github.com/kdn251/interviews)

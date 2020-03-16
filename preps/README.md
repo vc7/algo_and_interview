@@ -15,6 +15,7 @@
 - [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/)
   - 這應該是必讀了
   - Study Guide
+- [Elements of Programming Interviews in Java: The Insiders' Guide](https://www.amazon.com/Elements-Programming-Interviews-Java-Adnan/dp/1517671272)
 
 ## 參考影片
 

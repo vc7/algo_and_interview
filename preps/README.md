@@ -5,6 +5,11 @@
 - LeetCode
 - HackerRank
 
+## 量化讀書計畫
+
+- 用 2 個小時解 5 題
+  - Push Harder - 用更短的時間，例如 1 小時 45 分解 5 題
+
 ## 書目
 
 - [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/)
@@ -12,6 +17,6 @@
 
 ## 參考影片
 
-- [HOW TO PASS BIG N SOFTWARE ENGINEERING INTERVIEWS...](https://www.youtube.com/watch?v=oLUG95Ai_rw)
-  - Kevin Naughton Jr.
+- [How to pass big n software engineering interviews...](https://www.youtube.com/watch?v=oLUG95Ai_rw) by Kevin Naughton Jr.
   - 有提到準備方式、書目和使用平台
+- [How to Use LeetCode Effectively...](https://www.youtube.com/watch?v=iGFnsuMeUQY) by Kevin Naughton Jr.

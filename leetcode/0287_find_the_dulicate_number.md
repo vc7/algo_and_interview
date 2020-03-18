@@ -1,6 +1,7 @@
 # 287. Find the Duplicate Number
 
 - <https://leetcode.com/problems/find-the-duplicate-number/>
+- <https://leetcode.com/problems/find-the-duplicate-number/discuss/543300/Swift-solution-with-explanation>
 
 ### 簡要解說
 

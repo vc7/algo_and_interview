@@ -1,5 +1,9 @@
 # 287. Find the Duplicate Number
 
+- <https://leetcode.com/problems/find-the-duplicate-number/>
+
+### 簡要解說
+
 - Floyd Cycle / Tortoise and Hare Algorithm 的應用
 - 每一個元素內容的值介於 1 到 count - 1 之間
 - 每一個元素的值則可以理解成下一步可以移動到的位置

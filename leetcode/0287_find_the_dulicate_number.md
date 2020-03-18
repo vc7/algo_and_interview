@@ -65,3 +65,20 @@ class Solution {
     }
 }
 ```
+
+龜兔賽跑的部分：
+
+- `nums[slow]` 是走一步
+- `nums[nums[fast]]` 是走兩步
+
+``` swift
+slow = nums[slow]
+fast = nums[nums[fast]]
+```
+
+### Result
+
+``` text
+Runtime: 48 ms, faster than 98.41% of Swift online submissions for Find the Duplicate Number.
+Memory Usage: 21.2 MB, less than 100.00% of Swift online submissions for Find the Duplicate Number.
+```

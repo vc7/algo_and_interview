@@ -1,10 +1,12 @@
 # 90. Subsets II
 
+`Array` `Backtracking`
+
 - <https://leetcode.com/problems/subsets-ii/>
 - Related to
   - [78. Subsets](https://leetcode.com/problems/subsets/), [note](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0078_subsets.md)
 
-`Array` `Backtracking`
+和 78 不同的地方在有 **重複的元素** 需要判斷；以及在有重複元素需要排列組合的需求之下，事先排序一次再處理會比較容易。
 
 ## 20200320
 

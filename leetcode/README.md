@@ -26,7 +26,7 @@
 
 | 題型 | 題號或題名 |
 |---|---|
-| Rotated Array | [81](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0081.md)
+| Rotated Array | [33](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0033_search_in_rotated_sorted_array.md), [81](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0081.md), [153](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0153_find_minimum_in_rotated_sorted_array.md)
 | 排列組合 | [77](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0077_combinations.md), [78](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0078_subsets.md), [90](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0090_subsets_II.md)<br>[possibleSums](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/possibleSums.md)
 | Path | [62](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0062_unique_paths.md), [63](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0063_unique_paths_II.md), [64](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0064_minumum_path_sum.md)
 
@@ -84,3 +84,26 @@
 - 如果需要把有 n 個元素的陣列， 0~n 個元素的排列組合全部列出來的話
   - 邊 backtracking 走訪每一個階段邊儲存結果
   - 停止條件為 start index 到達 n 
+  
+## Rotated Sorted Array
+
+- Binary Search!!
+
+### 基本算法： 找原始開頭
+
+``` swift
+var left = 0 
+var right = nums.count - 1
+        
+while left < right {
+    let middle = left + (right - left) / 2
+    if nums[middle] > nums[right] {
+        left = middle + 1
+    } else {
+        right = middle
+    }
+}
+```
+
+走完 while 迴圈， left 的最後值就是開頭
+

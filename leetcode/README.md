@@ -77,3 +77,10 @@
 - 如果需要 **計算** 所有項目出來的話就是要用 Dynamic Programming (+ memoization)
   - 好的情況時可以把指數型的時間複雜度降到線性的時間複雜度
 - 如果需要 **列舉** 所有項目出來的話就是要用 Backtracking
+
+## 排列組合
+
+- 需要列舉的話，用 backtracking
+- 如果需要把有 n 個元素的陣列， 0~n 個元素的排列組合全部列出來的話
+  - 邊 backtracking 走訪每一個階段邊儲存結果
+  - 停止條件為 start index 到達 n 

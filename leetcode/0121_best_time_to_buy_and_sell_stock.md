@@ -2,6 +2,13 @@
 
 `Array` `Dynamic Programming`
 
+- <https://leetcode.com/problems/best-time-to-buy-and-sell-stock>
+
+思考方式 ([可以參考](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/discuss/550999/Java-clean-code))：
+
+- 價格在相對低點是好買點 → 逐步更新最低價
+- 價格在相對高點是好賣點 → 逐步更新最大獲利
+
 ## 20200326
 
 ### 1 

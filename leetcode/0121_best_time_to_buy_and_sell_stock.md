@@ -1,6 +1,6 @@
 # 121. Best Time to Buy and Sell Stock
 
-`Array` `Dynamic Programming`
+`Array` `Dynamic Programming` `Greedy`
 
 - <https://leetcode.com/problems/best-time-to-buy-and-sell-stock>
 

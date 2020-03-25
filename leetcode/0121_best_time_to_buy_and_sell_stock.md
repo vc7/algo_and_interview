@@ -1,6 +1,6 @@
 # 121. Best Time to Buy and Sell Stock
 
-`Array`
+`Array` `Dynamic Programming`
 
 ## 20200326
 

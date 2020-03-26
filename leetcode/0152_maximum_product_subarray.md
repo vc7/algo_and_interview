@@ -1,0 +1,46 @@
+# 152. Maximum Product Subarray
+
+- <https://leetcode.com/problems/maximum-product-subarray/>
+
+參考
+
+- <https://leetcode.com/problems/maximum-product-subarray/discuss/48335/Two-clean-different-solutions-C%2B%2B-well-commented>
+
+## 20200326
+
+### 1
+
+``` swift
+class Solution {
+    func maxProduct(_ nums: [Int]) -> Int {
+        var currentMax = 1
+        var currentMin = 1
+        var result = nums[0]
+        
+        for num in nums {
+            let tempMax = currentMax * num
+            let tempMin = currentMin * num
+            
+            result = max(result, tempMax, tempMin)
+            
+            currentMax = max(tempMin, tempMax, 1)
+            currentMin = min(tempMin, tempMax)
+        }
+        return result
+    }
+}
+```
+
+#### Result
+
+同樣的 code 效能差竟然差那麼多！
+
+``` text
+Runtime: 24 ms, faster than 63.24% of Swift online submissions for Maximum Product Subarray.
+Memory Usage: 21.4 MB, less than 100.00% of Swift online submissions for Maximum Product Subarray.
+```
+
+``` text
+Runtime: 20 ms, faster than 90.44% of Swift online submissions for Maximum Product Subarray.
+Memory Usage: 21.1 MB, less than 100.00% of Swift online submissions for Maximum Product Subarray.
+```

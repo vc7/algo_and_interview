@@ -44,3 +44,37 @@ Memory Usage: 21.4 MB, less than 100.00% of Swift online submissions for Maximum
 Runtime: 20 ms, faster than 90.44% of Swift online submissions for Maximum Product Subarray.
 Memory Usage: 21.1 MB, less than 100.00% of Swift online submissions for Maximum Product Subarray.
 ```
+
+### 2
+
+這個解法比 `1` 還要好理解
+
+``` swift
+class Solution {
+    func maxProduct(_ nums: [Int]) -> Int {
+        var currentMax = nums[0]
+        var currentMin = nums[0]
+        var result = nums[0]
+        
+        for num in nums[1...] {
+            if num < 0 {
+                let temp = currentMax
+                currentMax = currentMin
+                currentMin = temp
+            }
+            currentMax = max(currentMax * num, num)
+            currentMin = min(currentMin * num, num)
+            result = max(result, currentMax)
+            
+        }
+        return result
+    }
+}
+```
+
+#### Result
+
+``` text
+Runtime: 20 ms, faster than 90.44% of Swift online submissions for Maximum Product Subarray.
+Memory Usage: 21 MB, less than 100.00% of Swift online submissions for Maximum Product Subarray.
+```

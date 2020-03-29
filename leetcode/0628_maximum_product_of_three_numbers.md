@@ -4,6 +4,8 @@
 
 LINE 有出過的題目
 
+-  [152](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0152_maximum_product_subarray.md) 的延伸題
+
 ## 20200329
 
 核心概念：關心的是 `最大三數` 和 `最小二數`

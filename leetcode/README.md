@@ -26,10 +26,10 @@
 
 | 題型 | 題號或題名 |
 |---|---|
-| Rotated Array | [33](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0033_search_in_rotated_sorted_array.md), [81](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0081.md), [153](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0153_find_minimum_in_rotated_sorted_array.md)
+| Rotated Array | [33](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0033_search_in_rotated_sorted_array.md), [81](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0081.md), [152](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0152_maximum_product_subarray.md), [153](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0153_find_minimum_in_rotated_sorted_array.md)
 | 排列組合 | [77](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0077_combinations.md), [78](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0078_subsets.md), [90](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0090_subsets_II.md)<br>[possibleSums](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/codesignal/possibleSums.md)
 | Path | [62](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0062_unique_paths.md), [63](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0063_unique_paths_II.md), [64](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/master/leetcode/0064_minumum_path_sum.md)
-| Math | [628](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0628_maximum_product_of_three_numbers.md)
+| Math (乘法) |  [152](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0152_maximum_product_subarray.md), [628](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0628_maximum_product_of_three_numbers.md)
 
 ## Binary Search 相關資料
 

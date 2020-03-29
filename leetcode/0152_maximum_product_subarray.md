@@ -1,6 +1,9 @@
 # 152. Maximum Product Subarray
 
+`Array` `Math`
+
 - <https://leetcode.com/problems/maximum-product-subarray/>
+- 進階題 - [628](https://github.com/vc7/algo_and_interview/blob/master/leetcode/0628_maximum_product_of_three_numbers.md)
 
 參考
 

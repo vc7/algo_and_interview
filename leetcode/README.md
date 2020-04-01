@@ -83,7 +83,7 @@
 - 需要列舉的話，用 backtracking
 - 如果需要把有 n 個元素的陣列， 0~n 個元素的排列組合全部列出來的話
   - 邊 backtracking 走訪每一個階段邊儲存結果
-  - 停止條件為 start index 到達 n 
+  - 停止條件為 start index 到達 n
   
 ## Rotated Sorted Array
 
@@ -92,9 +92,9 @@
 ### 基本算法： 找原始開頭
 
 ``` swift
-var left = 0 
+var left = 0
 var right = nums.count - 1
-        
+
 while left < right {
     let middle = left + (right - left) / 2
     if nums[middle] > nums[right] {

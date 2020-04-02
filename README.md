@@ -9,4 +9,6 @@
 
 - <https://codeforces.com/>
 - "AtCoder" - <https://atcoder.jp>
-- "AOJ" - <https://onlinejudge.u-aizu.ac.jp/>
+- <https://onlinejudge.u-aizu.ac.jp/>
+- JOI - <https://www.ioi-jp.org/joi.php>
+  - 還在看這是什麼

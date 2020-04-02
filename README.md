@@ -7,6 +7,6 @@
 
 ## 想要嘗試（主要是競プロ）
 
-- <https://atcoder.jp>
 - <https://codeforces.com/>
-- <https://onlinejudge.u-aizu.ac.jp/>
+- "AtCoder" - <https://atcoder.jp>
+- "AOJ" - <https://onlinejudge.u-aizu.ac.jp/>

@@ -44,11 +44,12 @@ class Solution {
         if nums.isEmpty { return 0 }
 
         var largest = nums[0]
-        var current = nums[0]
+        var previous = nums[0]
 
         for index in 1..<nums.count {
-            current = max(nums[index], current + nums[index])
+            let current = max(nums[index], previous + nums[index])
             largest = max(largest, current)
+            previous = current
         }
         return largest
     }

@@ -8,14 +8,14 @@
 | Backtracking | 39, 40, 43, 46, 47, [77](0077_combinations.md), [78](0078_subsets.md), [79](0079_word_search.md), [90](0090_subsets_II.md)<br> [climbingStaircase](../codesignal/climbingStaircase.md), [nQueens](../codesignal/nQueens.md), [hasPathWithGivenSum](../codesignal/hasPathWithGivenSum.md), [isTreeSymmetric](../codesignal/isTreeSymmetric.md), [possibleSums](../codesignal/possibleSums.md) |
 | Sliding Window | [findLongestSubarrayBySum](../codesignal/findLongestSubarrayBySum.md)
 | Dynamic Programming | [53](0053_maximum_subarray.md), [62](0062_unique_paths.md), [63](0063_unique_paths_II.md), [64](0064_minumum_path_sum.md), [70](0070_climbing_stairs.md), [91](0091.md), [121](0121_best_time_to_buy_and_sell_stock.md)<br>[houseRobber](../codesignal/houseRobber.md)(解法類似於 53)
-| Two Pointers | [75](0075_sort_colors.md)
+| Two Pointers | [75](0075_sort_colors.md), [283](0283_move_zeroes.md)
 | Two Pointers (Slow-Fast) | [19](https://github.com/vc7/algorithm_datas_tructure_leetcode/blob/b7ac153c5d5e5ab894d86b7d9c66a87917de7dae/leetcode/0019_remove_nth_node_from_end_of_list.md), [61](0061_rotate_list.md), [287](0287_find_the_dulicate_number.md)<br>[removeKFromList](../codesignal/removeKFromList.md), [isListPalindrome](../codesignal/isListPalindrome.md)
 | Greedy | [64](0064_minumum_path_sum.md), [121](0121_best_time_to_buy_and_sell_stock.md), [122](0122_best_time_to_buy_and_sell_stock_II.md)
 | BFS | [103](0103_binary_tree_zigzag_level_order_traversal.md)
 
 | 資料結構 | 題號或題名 |
 |---|---|
-| Array | [56](0056_merge_intervals.md)(+Sort), [78](0078_subsets.md), [90](0090_subsets_II.md), [121](0121_best_time_to_buy_and_sell_stock.md), [122](0122_best_time_to_buy_and_sell_stock_II.md), [67](0067_add_binary.md), [136](0136.md)(XOR, `^=`), [162](0162_find_peak_element.md), [287](0287_find_the_dulicate_number.md)<br>[isCryptSolution](../codesignal/isCryptSolution.md)
+| Array | [56](0056_merge_intervals.md)(+Sort), [78](0078_subsets.md), [90](0090_subsets_II.md), [121](0121_best_time_to_buy_and_sell_stock.md), [122](0122_best_time_to_buy_and_sell_stock_II.md), [67](0067_add_binary.md), [136](0136.md)(XOR, `^=`), [162](0162_find_peak_element.md), [283](0283_move_zeroes.md), [287](0287_find_the_dulicate_number.md)<br>[isCryptSolution](../codesignal/isCryptSolution.md)
 | Stack | [71](0071_simplify_path.md)
 | 二維陣列(Matrix) | [54](0054_spiral_matrix.md), [59](0059_spiral_matrix_II.md), [73](0073_set_matrix_zeroes.md), [74](0074_search_a_2d_matrix.md), [628](0628_maximum_product_of_three_numbers.md)<br>[rotateImage](../codesignal/rotateImage.md), [sudoku2](../codesignal/sudoku2.md) |
 | Singly-linked List | [83](0083.md), [86](0086.md)<br>[removeKFromList](../codesignal/removeKFromList.md), [isListPalindrome](../codesignal/isListPalindrome.md)(反轉), [addTwoHugeNumbers](../codesignal/addTwoHugeNumbers.md)(反轉), [mergeTwoLinkedLists](../codesignal/mergeTwoLinkedLists.md)

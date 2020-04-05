@@ -151,6 +151,46 @@ class Solution {
 
 ## 參考解
 
+### 第二題 - 5377
+
+- 1404. <https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/>
+
+- 神級解 - <https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/discuss/564287/C%2B%2BJava-O(n)>
+
+- 其實不用實際去操作陣列。
+- 要求算步數的時候，要避免去操作本體，要想應該有更快的方式可以推算結果出來。
+
+``` swift
+// https://leetcode.com/submissions/detail/320044102/
+// Runtime: 8 ms, faster than 100.00% of Swift online submissions for Number of Steps to Reduce a Number in Binary Representation to One.
+// Memory Usage: 21.3 MB, less than 100.00% of Swift online submissions for Number of Steps to Reduce a Number in Binary Representation to One.
+class Solution {
+    func numSteps(_ s: String) -> Int {
+        let characters = Array(s)
+        var carry = 0
+        var result = 0
+
+        // 10 -> 1 次
+        // 11 -> 3 次
+        //  1 -> 0 次
+        // 剩餘 1 個位數不用處理，所以走訪是走到 index 1 為止
+        for index in (1..<characters.count).reversed() {
+            if (characters[index] == "1" && carry == 0) || (characters[index] == "0" && carry == 1) {
+                // 該位數 + carry 為奇數的情形需要處理兩次
+                carry = 1
+                result += 2
+            } else {
+                // 該位數 + carry 為偶數的情形只需要處理一次
+                result += 1
+            }
+        }
+        return result + carry
+    }
+}
+```
+
+類似題 - [1342. Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
+
 ### 第四題 - 5379
 
 DP - https://leetcode.com/problems/stone-game-iii/discuss/564260/JavaC%2B%2BPython-DP-O(1)-Space

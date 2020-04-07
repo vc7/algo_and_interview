@@ -76,3 +76,35 @@ class Solution {
 Runtime: 16 ms
 Memory Usage: 20.7 MB
 ```
+
+## Code - 3
+
+可以直接找 array 裡面有沒有存在就好。
+
+- Time complexity: O(n)
+- Space commplexity: O(1)
+
+``` swift
+class Solution {
+    func countElements(_ arr: [Int]) -> Int {
+        var count = 0
+
+        for number in arr {
+            if arr.contains(number+1) {
+                count += 1
+            }
+        }
+
+        return count
+    }
+}
+```
+
+### Result - 3
+
+- <https://leetcode.com/submissions/detail/321219116/>
+
+``` text
+Runtime: 20 ms
+Memory Usage: 21.2 MB
+```

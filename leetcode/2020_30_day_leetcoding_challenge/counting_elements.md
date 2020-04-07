@@ -4,8 +4,8 @@
 
 ## Code
 
-Time complexity: O(nlogn)
-Space commplexity: O(1)
+- Time complexity: O(nlogn) （因為有用到排序）
+- Space commplexity: O(1)
 
 ``` swift
 class Solution {

@@ -35,6 +35,8 @@ class Solution {
 }
 ```
 
+### Result
+
 - <https://leetcode.com/submissions/detail/321197249/>
 
 ``` text

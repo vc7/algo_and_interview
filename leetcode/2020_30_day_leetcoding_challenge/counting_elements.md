@@ -5,7 +5,7 @@
 ## Code
 
 - Time complexity: O(nlogn) （因為有用到排序）
-- Space commplexity: O(1)
+- Space commplexity: O(n)
 
 ``` swift
 class Solution {
@@ -42,4 +42,37 @@ class Solution {
 ``` text
 Runtime: 20 ms
 Memory Usage: 21.2 MB
+```
+
+## Code - 2
+
+沒有用 sort 所以時間複雜度可以降到 O(n) ， Runtime 明顯有變快。
+
+- Time complexity: O(nlogn) （因為有用到排序）
+- Space commplexity: O(n)
+
+``` swift
+class Solution {
+    func countElements(_ arr: [Int]) -> Int {
+        var seen = Set(arr)
+        var count = 0
+
+        for number in arr {
+            if seen.contains(number+1) {
+                count += 1
+            }
+        }
+
+        return count
+    }
+}
+```
+
+### Result - 2
+
+- <https://leetcode.com/submissions/detail/321210924/>
+
+``` text
+Runtime: 16 ms
+Memory Usage: 20.7 MB
 ```

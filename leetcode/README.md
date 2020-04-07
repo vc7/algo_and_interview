@@ -22,7 +22,7 @@
 | Hashmap | [73](0073_set_matrix_zeroes.md), [383](0383_ransom_note.md)<br>[containsDuplicates](../codesignal/containsDuplicates.md), [firstDuplicate](../codesignal/firstDuplicate.md), [firstNotRepeatingCharacter](../codesignal/firstNotRepeatingCharacter.md), [areFollowingPatterns](../codesignal/areFollowingPatterns.md), [containsCloseNums](../codesignal/containsCloseNums.md), [possibleSums](../codesignal/possibleSums.md)
 | 字串化 Hashmap | [nQueens](../codesignal/nQueens.md), [sudoku2](../codesignal/sudoku2.md)
 | Tree | [100](0100.md)<br>[hasPathWithGivenSum](../codesignal/hasPathWithGivenSum.md), [isTreeSymmetric](../codesignal/isTreeSymmetric.md)
-| String | [58](0058_length_of_last_word.md), [71](0071_simplify_path.md)<br>[minimumOnStack](../codesignal/minimumOnStack.md)
+| String | [49](0049_), [58](0058_length_of_last_word.md), [71](0071_simplify_path.md)<br>[minimumOnStack](../codesignal/minimumOnStack.md)
 
 | 題型 | 題號或題名 |
 |---|---|
@@ -107,10 +107,14 @@ while left < right {
 
 走完 while 迴圈， left 的最後值就是開頭
 
+## String
+
+- 如果遇到要字串分組的話， 可以用 `String(string.sorted())` 當 key 值
+
 ## Contests
 
 ### Weekly Contest
 
 | # | Date | Problems | Rank |
 |:---:|:---:|---|---|
-| [183](weekly_contest_183) | 2020/04/05 | 5376, 5377, 5378, 5379 | 4503 /8786 |
+| [183](weekly_contest_183) | 2020/04/05 | 5376, 5377, 5378, 5379 | 4503/8786 |

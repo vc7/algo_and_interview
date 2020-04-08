@@ -14,6 +14,9 @@ Week 1: April 1st–April 7th
 
 Week 2: April 8th–April 14th
 
+| # | Problem | Note |
+|:---:|---|---|
+| 1 | [Middle of the Linked List](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/) | [note](middle_of_the_linked_list.md) |
 Week 3: April 15th–April 21st
 
 Week 4: April 22nd–April 28th

@@ -3,7 +3,7 @@
 `Linked List` `Slow Fast Pointer`
 
 - <https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3290/>
-- 原題目 - [876. Middle of the Linked List]<https://leetcode.com/problems/middle-of-the-linked-list/>
+- 原題目 - [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 這題是還滿典型的 slow fast pointer 問題。
 slow 一次移動一個位置，fast 一次移動兩個位置，當 fast 移動到尾端之後，
@@ -31,10 +31,7 @@ class Solution {
 }
 ```
 
-判斷是否移動到尾端，用了 `fast != nil` 和 `fast?.next != nil` 的原因是，
-
-- 有奇數個節點數的時候，需要用 `fast?.next != nil` 判斷
-- 有偶數個節點數的時候，則需要用 `fast?.next != nil` 判斷
+## 尾端判斷說明
 
 奇數個：
 

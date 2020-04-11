@@ -17,6 +17,7 @@ Week 2: April 8th–April 14th
 | # | Problem | Note |
 |:---:|---|---|
 | 1 | [Middle of the Linked List](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/) | [note](middle_of_the_linked_list.md) |
+| 2 | [Backspace String Compare](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3291/) | [note](backspace_string_compare.md) |
 
 Week 3: April 15th–April 21st
 

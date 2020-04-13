@@ -16,8 +16,11 @@ Week 2: April 8th–April 14th
 
 | # | Problem | Note |
 |:---:|---|---|
-| 1 | [Middle of the Linked List](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/) | [note](middle_of_the_linked_list.md) |
+| 1 | [Middle of the Linked List](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3290/) | [note](middle_of_the_linked_list.md) |
 | 2 | [Backspace String Compare](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3291/) | [note](backspace_string_compare.md) |
+| 3 | [Min Stack](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3292/) | [note](min_stack.md) |
+| 4 | [Diameter of Binary Tree](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3293/) | [note](diameter_of_binary_tree.md) |
+| 5 | [Last Stone Weight](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3297/) | [note](last_stone_weight.md) |
 
 Week 3: April 15th–April 21st
 

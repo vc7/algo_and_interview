@@ -21,6 +21,8 @@ Week 2: April 8th–April 14th
 | 3 | [Min Stack](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3292/) | [note](min_stack.md) |
 | 4 | [Diameter of Binary Tree](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3293/) | [note](diameter_of_binary_tree.md) |
 | 5 | [Last Stone Weight](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3297/) | [note](last_stone_weight.md) |
+| 6 |
+| 7 | [Perform String Shifts](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3299/) | [note](perform_string_shifts.md)
 
 Week 3: April 15th–April 21st
 

@@ -26,8 +26,8 @@ Week 2: April 8th–April 14th
 
 Week 3: April 15th–April 21st
 
-| # | Problem | Note |
-|:---:|---|---|
-| 1 | [Product of Array Except Self](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3300/) | [note](product_of_array_except_self.md) |
+| # | Problem | Note | Qiita
+|:---:|---|---|---|
+| 1 | [Product of Array Except Self](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3300/) | [note](product_of_array_except_self.md) | [Qiita](https://qiita.com/vc7/items/ad77ffca4119d7741e92?fbclid=IwAR3hVqFHXmRIgNxE5VwDk1onHdS4oR37YeutVfy5eZZneus_8rkqWCNyInA)
 
 Week 4: April 22nd–April 28th

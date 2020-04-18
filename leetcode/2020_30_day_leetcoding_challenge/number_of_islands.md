@@ -31,9 +31,6 @@ class Solution {
         var count = 0
         var seen = [[Bool]](repeating: [Bool](repeating: false, count: grid[0].count), count: grid.count)
         
-        var row = 0
-        var column = 0
-        
         for row in 0..<grid.count {
             for column in 0..<grid[0].count {
                 // 如果沒走過的話才去探索

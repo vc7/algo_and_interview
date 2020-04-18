@@ -30,5 +30,6 @@ Week 3: April 15th–April 21st
 |:---:|---|---|---|
 | 1 | [Product of Array Except Self](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3300/) | [note](product_of_array_except_self.md) | [Qiita](https://qiita.com/vc7/items/ad77ffca4119d7741e92?fbclid=IwAR3hVqFHXmRIgNxE5VwDk1onHdS4oR37YeutVfy5eZZneus_8rkqWCNyInA) |
 | 2 | [Valid Parenthesis String](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3301/) | [note](valid_parenthesis_string.md)
+| 3 | [Number of Islands](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/530/week-3/3302/) | [note](number_of_islands.md) | [Qiita](https://qiita.com/vc7/items/e58456f3d08baedf0098) |
 
 Week 4: April 22nd–April 28th

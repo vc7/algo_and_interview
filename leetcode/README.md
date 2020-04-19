@@ -22,7 +22,7 @@
 | Hashmap | [73](0073_set_matrix_zeroes.md), [383](0383_ransom_note.md)<br>[containsDuplicates](../codesignal/containsDuplicates.md), [firstDuplicate](../codesignal/firstDuplicate.md), [firstNotRepeatingCharacter](../codesignal/firstNotRepeatingCharacter.md), [areFollowingPatterns](../codesignal/areFollowingPatterns.md), [containsCloseNums](../codesignal/containsCloseNums.md), [possibleSums](../codesignal/possibleSums.md)
 | 字串化 Hashmap | [nQueens](../codesignal/nQueens.md), [sudoku2](../codesignal/sudoku2.md)
 | Tree | [100](0100.md)<br>[hasPathWithGivenSum](../codesignal/hasPathWithGivenSum.md), [isTreeSymmetric](../codesignal/isTreeSymmetric.md)
-| String | [49](0049_), [58](0058_length_of_last_word.md), [71](0071_simplify_path.md)<br>[minimumOnStack](../codesignal/minimumOnStack.md)
+| String | [49](0049_), [58](0058_length_of_last_word.md), [71](0071_simplify_path.md), [1374](1374_generate_a_string_with_characters_that_have_odd_counts.md)<br>[minimumOnStack](../codesignal/minimumOnStack.md)
 
 | 題型 | 題號或題名 |
 |---|---|

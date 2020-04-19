@@ -29,6 +29,7 @@
 | Rotated Array | [33](0033_search_in_rotated_sorted_array.md), [81](0081.md), [152](0152_maximum_product_subarray.md), [153](0153_find_minimum_in_rotated_sorted_array.md)
 | 排列組合 | [77](0077_combinations.md), [78](0078_subsets.md), [90](0090_subsets_II.md)<br>[possibleSums](../codesignal/possibleSums.md)
 | Path | [62](0062_unique_paths.md), [63](0063_unique_paths_II.md), [64](0064_minumum_path_sum.md)
+| Math | [1323](1323_maximum_69_number.md) |
 | Math (乘法) |  [152](0152_maximum_product_subarray.md), [628](0628_maximum_product_of_three_numbers.md)
 
 ## Binary Search 相關資料

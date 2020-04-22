@@ -34,5 +34,6 @@ Week 3: April 15th–April 21st
 | 4 | [Minimum Path Sum](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3303/) | [note](minimum_path_sum.md) | [Qiita](https://qiita.com/vc7/items/cc57ba44ef97d4914d0c)
 | 5 |
 | 6 | | [note](construct_binary_search_tree_from_preorder_traversal.md) |
+| 7 | [Leftmost Column with at Least a One](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3306/) | [note](leftmost_column_with_at_least_a_one.md) | [Qiita](https://qiita.com/vc7/items/7022af54c5e7b0703366)
 
 Week 4: April 22nd–April 28th

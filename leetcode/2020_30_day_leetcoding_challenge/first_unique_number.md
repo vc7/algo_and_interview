@@ -66,3 +66,7 @@ class FirstUnique {
 
 核心概念應該是，如果發現是已經加過的數字，也就是 count > 1 ，就不要加入。
 程式碼本身也比實作一整個 LRU 還要簡潔。
+
+## Result
+
+- https://leetcode.com/submissions/detail/331721577/?from=/explore/challenge/card/30-day-leetcoding-challenge/531/week-4/3313/

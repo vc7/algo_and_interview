@@ -35,7 +35,7 @@ class FirstUnique {
 
 或
 
-```
+``` swift
 class FirstUnique {
     var counts = [Int: Int]()
     var queue = [Int]()

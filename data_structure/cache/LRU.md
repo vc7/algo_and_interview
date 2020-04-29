@@ -1,7 +1,7 @@
 # LRU (Least Recently Used)
 
 - wiki - <https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU)>
-- https://www.youtube.com/watch?v=S6IfqDXWa10
+- <https://www.youtube.com/watch?v=S6IfqDXWa10>
 
 概要：有固定的儲存空間。當取用或修改的時候，該資料結構會到快取隊列的最前方。新增值的時候，會新增在最前方，當儲存的數量超過的時候，就會移除最舊的資料。
 
@@ -45,7 +45,7 @@ class LRUCache {
     }
 
     // MARK: - Helpers
- 
+
     /// Helper
     private func insertToHead(_ node: Node) {
         node.next = head.next

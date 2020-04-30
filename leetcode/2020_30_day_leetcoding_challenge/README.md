@@ -46,3 +46,7 @@ Week 4: April 22nd–April 28th
 | 4 | [Jump Game](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/531/week-4/3310/) | [note](jump_game.md)
 
 Week 5: April 29nd–April 30th
+
+| # | Problem | Note | Qiita
+|:---:|---|---|---|
+| 2 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/532/week-5/3315/) | [note](check_if_a_string_is_a_valid_sequence_from_root_to_leaves_path_in_a_binary_tree.md) | [Qiita](https://qiita.com/vc7/items/2e6dc5a6006c180132b2) |

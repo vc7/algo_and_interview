@@ -112,6 +112,13 @@ while left < right {
 
 - 如果遇到要字串分組的話， 可以用 `String(string.sorted())` 當 key 值
 
+## Challenges
+
+| Date | Name |
+|:---:|----|
+| 2020/04 | [2020_30_day_leetcoding_challenge](2020_30_day_leetcoding_challenge)
+| 2020/05 | [2020_may_leetcoding_challenge](2020_may_leetcoding_challenge)
+
 ## Contests
 
 ### Weekly Contest

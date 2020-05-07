@@ -9,3 +9,4 @@
 | 3 | [Ransom Note](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3318/) | [Note](w1d3_ransom_note) | [Qiita](https://qiita.com/vc7/items/6e07c1ce625388156ab0)
 | 4 | [Number Comlement](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3319/) | [Note](w1d4_number_complement) | [Qiita](https://qiita.com/vc7/items/efd25fa456cef1f469e7)
 | 5 | [First Unique Character in a String](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3320/) | [Note](w1d5_first_unique_character_in_a_string) | [Qiita](https://qiita.com/vc7/items/05bb4b220c49e8d07333)
+| 6 | [Majority Element](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3321/) | [Note](w1d6_majority_element) | [Qiita](https://qiita.com/vc7/items/2ea8c8af7fdecae5076a)

@@ -17,3 +17,4 @@
 | # | Problem | Note | Qiita | LeetCode
 |:---:|---|---|---|---|
 | 1 | [Check If It Is a Straight Line](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3323/) | [Note](w2d1_check_if_it_is_a_straight_line) | [Qiita](https://qiita.com/vc7/items/8290c1a09ca08d349c2f) |
+| 2 | [Valid Perfect Square](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3324/) | [Note](w2d2_valid_perfect_square) | [Qiita](https://qiita.com/vc7/items/ee8cf95d915989785d88)

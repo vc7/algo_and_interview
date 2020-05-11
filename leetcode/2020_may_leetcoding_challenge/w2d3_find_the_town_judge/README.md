@@ -67,3 +67,5 @@ Memory Usage: 21.2 MB
 ```
 
 - <https://leetcode.com/submissions/detail/337166274/?from=/explore/featured/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3325/>
+
+- <https://leetcode.com/submissions/detail/337167930/>

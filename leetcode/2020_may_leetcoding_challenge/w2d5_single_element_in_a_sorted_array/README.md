@@ -2,8 +2,8 @@
 
 資料結構與演算法： `Hash Table` `XOR` `Binary Search`
 
-- 挑戰頁面 - [Flood Fill](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3326/)
-- 原題目頁面 - [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
+- 挑戰頁面 - [Single Element in a Sorted Array](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3327/)
+- 原題目頁面 - [540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
 
 ## 前言
 
@@ -122,9 +122,6 @@ Memory Usage: 21 MB
 ``` swift
 class Solution {
     func singleNonDuplicate(_ nums: [Int]) -> Int {
-        if nums.isEmpty { return -1 }
-        if nums.count == 1 { return nums[0] }
-
         var left = 0
         var right = nums.count - 1
 
@@ -170,3 +167,56 @@ Memory Usage: 21.4 MB
 - <https://leetcode.com/submissions/detail/338308227/>
 
 ## Binary Search - 2
+
+第二種 binary search 的方式是利用題目的條件，來對 binary search 再做變化。
+
+### 思考方式
+
+根據題目，可以知道數字基本上是依序成對存在的。因此只要以偶數 index 為基礎走訪即可。
+
+首先，確保每一次的 middle 會在偶數 index 上。如果 middle 是在奇數位置，就往前移一位到偶數 index 上。
+
+- middle 和 middle + 1 相等
+  - 代表從 0 開始到 middle 的前一項之間都是成對存在，落單的一定在右半邊
+- middle 和 middle + 1 不相等
+  - 代表從 0 開始到 middle 為止（包含 middle）有可能有不成對的數字存在
+
+### 程式碼
+
+``` swift
+class Solution {
+    func singleNonDuplicate(_ nums: [Int]) -> Int {
+        var left = 0
+        var right = nums.count - 1
+
+        while left < right {
+            var middle = left + (right - left) / 2
+
+            // 確保 middle 是在偶數的 index
+            if middle % 2 == 1 { middle -= 1 }
+
+            if nums[middle] == nums[middle + 1] {
+                left = middle + 2
+            } else {
+                right = middle
+            }
+        }
+
+        return nums[left]
+    }
+}
+```
+
+### 複雜度分析
+
+- 時間複雜度： O(logn) - binary search
+- 空間複雜度： O(1)
+
+### 執行結果
+
+``` text
+Runtime: 48 ms (beats 100.00%)
+Memory Usage: 21.3 MB
+```
+
+- <https://leetcode.com/submissions/detail/338321081/>

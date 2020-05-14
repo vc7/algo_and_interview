@@ -21,3 +21,4 @@
 | 3 | [Find the Town Judge](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3325/) | [Note](w2d3_find_the_town_judge) | [Qiita](https://qiita.com/vc7/items/771a8bd0358c6606594d)
 | 4 | [Flood Fill](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3326/) | [Note](w2d4_flood_fill) | [Qiita](https://qiita.com/vc7/items/991b194c795b9f27a180)
 | 5 | [Single Element in a Sorted Array](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3327/) | [Note](w2d5_single_element_in_a_sorted_array) | [Qiita](https://qiita.com/vc7/items/8880fa6468790fe96a12)
+| 6 | [Remove K Digits](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3328/) | [Note](w2d6_remove_k_digits) | [Qiita](https://qiita.com/vc7/items/5d149f007fbae2e38c56)

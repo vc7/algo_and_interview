@@ -22,3 +22,11 @@
 | 4 | [Flood Fill](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3326/) | [Note](w2d4_flood_fill) | [Qiita](https://qiita.com/vc7/items/991b194c795b9f27a180)
 | 5 | [Single Element in a Sorted Array](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3327/) | [Note](w2d5_single_element_in_a_sorted_array) | [Qiita](https://qiita.com/vc7/items/8880fa6468790fe96a12)
 | 6 | [Remove K Digits](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3328/) | [Note](w2d6_remove_k_digits) | [Qiita](https://qiita.com/vc7/items/5d149f007fbae2e38c56)
+| 7 | [Implement Trie (Prefix Tree)](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3329/) | [Note](w2d7_implement_trie_prefix_tree)
+
+## Week 3: May 15th-May 21st
+
+| # | Problem | Note | Qiita | LeetCode
+|:---:|---|---|---|---|
+| 1 | [Maximum Sum Circular Subarray](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/3330/) | [Note](w3d1)
+| 2 | [Odd Even Linked List](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/3331/) | [Note](w3d2) | [Qiita](https://qiita.com/vc7/items/ce7abdbb8337f8bb5dba)

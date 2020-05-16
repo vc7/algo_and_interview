@@ -1,6 +1,6 @@
 # 5 月 LeetCode 挑戰, W3D2, Odd Even Linked List (Linked List), in Swift
 
-資料結構與演算法： `Trie`
+資料結構與演算法： `Linked List`
 
 - 挑戰頁面 - [Odd Even Linked List](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/3331/)
 - 原題目頁面 - [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
@@ -24,7 +24,7 @@
 1 -> 5 -> 3 -> 7
 ```
 
-條件是：時間複雜度 O(n), 空間複雜到 O(1)
+題目要求的條件是：時間複雜度 O(n), 空間複雜度 O(1)
 
 ## 思考方式
 
@@ -39,7 +39,7 @@
 ### Linked List （鏈結）的操作技巧
 
 - 建立 dummy node 作為 head node
-  - 為了保留第一個位置的資訊，就像港口的繫纜柱一樣的作用把繩子定住。雖然和繩子繫在一起，但是他本身並沒有資料上的意義。
+  - 為了保留第一個位置的資訊，就像港口的繫纜柱一樣的作用把繩子定住。雖然和繩子繫在一起，但是他在資料上並沒有任何意義。
   - 回傳的時候回傳 head.next ， head.next 才是這個鏈結的真正起點
 - 保留 `最後一個位置` 的節點資訊方便街上下一個節點
 

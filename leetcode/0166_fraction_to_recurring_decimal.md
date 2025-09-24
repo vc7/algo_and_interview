@@ -15,8 +15,8 @@ class Solution {
         // 暫存結果
         var result = [String]()
 
-        // 分子與分母正負值不一樣的時候，暫存負號
-        if (numerator > 0 && denominator < 0) || (numerator < 0 && denominator > 0) {
+        // 分子與分母一正一負的時候，暫存負號
+        if numerator * denominator < 0 {
             result.append("-")
         }
 
